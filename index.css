@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image:url(images/Mtn.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#nav-bar{
+
+    /*border: 1px black solid;*/
+	width:80%;
+	margin: 2px;
+	}
+    #nav-bar ul{
+        padding:0;
+        list-style:none;
+    }
+    
+    #nav-bar li{
+        padding:5px;
+        margin:0px 5px 3px 5px;
+        display:inline;
+        font-family:tahoma;
+        position: relative;
+        left: 80%; 
+    }
+    #mainh1-Div h1,#mainh1-Div h3{
+        margin:5px;
+        position:relative;
+        top:40px;
+        left:40px;
+        font-size:30px;
+        
+    
+    }
+    #mainh1-Div h3{
+        font-size:1.0em;
+    }
+    
+    #first-h5{
+        text-align:center;
+        position:relative;
+        top:100px;
+        text-align:center;
+        margin:10px;
+        font-size:2em;
+    }
+   
+    #login-Div input, #login-Div button{
+       /* border:5px white solid;*/
+        /*background:gray;*/
+        position:relative;
+        top:100px;
+    }
+
+    #input input, #input {
+        display:block;
+        width:200px;
+        position:relative;
+        left:35%;
+    }
+   #login-Div button{
+        margin:0px;
+        display:inline-block;
+        left:35%;
+        width: 48%;
+   }
+  
