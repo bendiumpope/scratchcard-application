@@ -60,6 +60,8 @@ body{
     }
     #input input{
         display:block;
+        height:20px;
+        border:2px black solid;
     }
     .flt1 {
         margin-top:30px;
@@ -73,12 +75,4 @@ body{
         display: inline-block;
         
     }
-    /*.flt{
-        float:right;
-        width:33.3%;
-        border:1px black solid;
-        padding: 10px;
-        box-sizing:border-box;
-        font-size:2em;
-
-    }
+    

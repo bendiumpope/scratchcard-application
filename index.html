@@ -7,6 +7,7 @@
 
     <title>MTN Nigeria</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 <!-- My navigation bar-->
@@ -29,9 +30,9 @@
 			<form action="" method="POST">
             <div id="input">
                 <h5 id="first-h5">Login</h5>
-				Email:<input type="email" name="email" placeholder="E-mail">
-                PassWord:<input type="password" name="password" placeholder="password" maxlength="10" minlength="6">
-                <button id="login">login</button>
+				Email:<input type="email" name="email" placeholder="E-mail" id="email">
+                PassWord:<input type="password" name="password" placeholder="password" maxlength="10" minlength="6" id="password">
+                <button id="loginbtn">login</button>
                 <button id="signUp">signup</button>
             </div>    
 		</form>
@@ -49,6 +50,18 @@
         <h5>Customer-Service: +234-80-696-798-27, +234-80-364-679-44, +234-70-688-038-08</h5>
         </p>
     </div>
+    <script>
+        $(document).ready(function(){
+            $('#loginbtn').on('click',function(){
+                $(input).keyup(function(e){
+                    e.preventDefault();
+                console.log(e.target.value);
+            });
+            
 
+            });
+           
+        })
+    </script>
 </body>
 </html>
