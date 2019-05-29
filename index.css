@@ -30,45 +30,55 @@ body{
         position: relative;
         left: 80%; 
     }
-    #mainh1-Div h1,#mainh1-Div h3{
-        margin:5px;
-        position:relative;
+    #header1 h1{
+        margin:0px;
+        position:absolute;
         top:40px;
         left:40px;
+        font-family: tahoma;
         font-size:30px;
-        
+        display:block;
     
     }
-    #mainh1-Div h3{
-        font-size:1.0em;
+    #header1 h3{
+        margin:5px;
+        position:absolute;
+        top:70px;
+        left:40px;
+        font-family: tahoma;
+        font-size:1em;
     }
-    
-    #first-h5{
-        text-align:center;
-        position:relative;
-        top:100px;
-        text-align:center;
-        margin:10px;
+    #input{
+        width:50%;
+        margin-top:15%;
+        margin-left:40%;
+        font-size:1em;
+    }
+    #input h5{
+        font-family: tahoma;
         font-size:2em;
     }
-   
-    #login-Div input, #login-Div button{
-       /* border:5px white solid;*/
-        /*background:gray;*/
-        position:relative;
-        top:100px;
-    }
-
-    #input input, #input {
+    #input input{
         display:block;
-        width:200px;
-        position:relative;
-        left:35%;
     }
-   #login-Div button{
-        margin:0px;
-        display:inline-block;
-        left:35%;
-        width: 48%;
-   }
-  
+    .flt1 {
+        margin-top:30px;
+        width: 45%;
+        display: inline-block;
+        
+    }
+    .flt2 {
+        margin-top:50px;
+        width: 45%;
+        display: inline-block;
+        
+    }
+    /*.flt{
+        float:right;
+        width:33.3%;
+        border:1px black solid;
+        padding: 10px;
+        box-sizing:border-box;
+        font-size:2em;
+
+    }
