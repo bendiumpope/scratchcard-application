@@ -1,0 +1,19 @@
+{
+  "name": "scratchcard-application",
+  "version": "1.0.0",
+  "description": "A program that generates and validates scratch card pins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendiumpope/scratchcard-application.git"
+  },
+  "author": "Ama Benedict",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendiumpope/scratchcard-application/issues"
+  },
+  "homepage": "https://github.com/bendiumpope/scratchcard-application#readme"
+}
