@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image:url(../images/cs.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#navGen{
+	/*border: 1px black solid;*/
+	width:50%;
+	margin: 2px;
+    position:relative;
+    left:20%;
+}
+#navGen ul{
+	padding:0;
+    list-style:none;
+}
+#navGen li{
+	padding:5px;
+	margin:0px 5px 3px 5px;
+	display:inline;
+	font-family:tahoma;
+	position: relative;
+    left: 80%;
+}
+.li{
+    color: black;
+    text-decoration: none;
+
+}
+#header1 h1{
+    margin:0px;
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-family: tahoma;
+    font-size:30px;
+    display:block;
+
+    
+}
+#header1 h3{
+    margin:5px;
+    position:absolute;
+	top:70px;
+	left:40px;
+	font-family: tahoma;
+    font-size:1em;
+}
+#container{
+    background-image:url("../images/MTN.jpg");
+    border-image-repeat: none;
+    background-size:100%;
+    color:blue;
+    width:60%;
+    height:200px;
+    margin-top:15%;
+    margin-left:20%;
+}
+#container h3{
+    text-align:center;
+}
+#container button{
+    margin-left:30%;
+    display:inline-block;
+    width:40%;
+    height:40px;
+}
+#display{
+    /*top:100px;*/
+    margin-top:10px;
+    margin-left:0;
+    font-size:1em;
+    background:black;
+    
+}

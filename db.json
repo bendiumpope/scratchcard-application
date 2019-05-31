@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "email": "benmria@yahoo.com",
+      "password": "666666"
+    },
+    {
+      "email": "benmaria1986@yahoo.com",
+      "password": "benah1234",
+      "id": 2
+    },
+    {
+      "email": "benm@yahoo.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "email": "bendiumpope@yahoo.com",
+      "password": "benmaria19",
+      "id": 4
+    },
+    {
+      "email": "ama@yahoo.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "email": "bendiumpope@gmail.com",
+      "password": "",
+      "id": 6
+    }
+  ],
+  "pin": [
+    {
+      "id": 1,
+      "pin": "01234567890",
+      "serial": "abcdefghij"
+    },
+    {
+      "pin": "20317135018",
+      "serial": "pYhKo9AWFt",
+      "id": 3
+    },
+    {
+      "pin": "05474210033",
+      "serial": "dA2OeBlwgJ",
+      "id": 4
+    },
+    {
+      "pin": "75882369100",
+      "serial": "Ft5t1jaTJj",
+      "id": 6
+    }
+  ]
+}
