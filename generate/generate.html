@@ -6,22 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Generate</title>
     <link rel="stylesheet" type="text/css" href="generate.css">
+    <script src="../jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <!-- Generate navigation bar-->
     <div id="navGen">
         <nav id="nav-bar">
             <ul id="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <select name="Activity" id="select">
-                        <option value="Generate" id="generate"><a href="">Generate Card</option>
-                        <option value="Validate" id="validate"><a href="validate.html">Validate/test</a></option>
-                        <option value="Delete" id="delete"><a href="delete.html">Delete card</a></option>
-                    </select>
-                </li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="../index.html" class="li">SignOut</a></li>
+                    <li><a href="" class="li">Generate Card</li>
+                    <li><a href="../validate/validate.html" class="li">Validate/test</a></li>
             </ul>
         </nav>
     </div>
@@ -32,15 +26,15 @@
     </div>
     <!--card generation button-->
     <div id="container">
-        <div id="btn">
-            <h3 id="secondh3">Click on the button to generate Recharge Card Pin</h3>
+            <h3 id="secondh3">Click to generate Recharge Pin</h3><br>
             <button id="generate">Generate Pin</button>
-        </div>
-    <!--Generated Pin detail display-->
+        <!--Generated Pin detail display-->
         <div id="display">
-            <h4>Recharge pin:<h4><br>
+            <h4>Recharge pin:<h4>
+            
             <h4>Serial Number:<h4>
         </div>
     </div>
+    <script src="generate.js"> </script>
 </body>
 </html>

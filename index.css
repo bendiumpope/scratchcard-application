@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
 }
-
 body{
     background-image:url(images/Mtn.png);
     background-repeat: no-repeat;
@@ -10,69 +9,71 @@ body{
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-
-#nav-bar{
-
-    /*border: 1px black solid;*/
-	width:80%;
-	margin: 2px;
-	}
-    #nav-bar ul{
-        padding:0;
-        list-style:none;
-    }
-    
-    #nav-bar li{
-        padding:5px;
-        margin:0px 5px 3px 5px;
-        display:inline;
-        font-family:tahoma;
-        position: relative;
-        left: 80%; 
-    }
-    #header1 h1{
-        margin:0px;
-        position:absolute;
-        top:40px;
-        left:40px;
-        font-family: tahoma;
-        font-size:30px;
-        display:block;
+#contain{
+    width: 60%;
+    margin:auto;
+}
+#header1 h1{
+    margin:0px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    font-family: tahoma;
+    font-size:30px;
+    display:block;
     
     }
-    #header1 h3{
-        margin:5px;
-        position:absolute;
-        top:70px;
-        left:40px;
-        font-family: tahoma;
-        font-size:1em;
+#header1 h3{
+    margin:5px;
+    position:absolute;
+    top:70px;
+    left:40px;
+    font-family: tahoma;
+    font-size:1em;
     }
+    #login{
+        background-image:url(images/mtnb1.jpg);
+        background-repeat: no-repeat;
+        background-size:100%;
+        color:blue;
+        width:100%;
+        height:300px;
+    }
+ 
     #input{
         width:50%;
         margin-top:15%;
         margin-left:40%;
+        padding: 2px;
         font-size:1em;
     }
-    #input h5{
-        font-family: tahoma;
-        font-size:2em;
+    #input h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:3em;
+        margin-left:10%
     }
     #input input{
         display:block;
         height:20px;
+        width:50%;
         border:2px black solid;
     }
+    #input button{
+        width:20%
+    }
+    
     .flt1 {
         margin-top:30px;
         width: 45%;
         display: inline-block;
+        color:black;
         
     }
     .flt2 {
         margin-top:50px;
         width: 45%;
         display: inline-block;
+        color:black;
         
     }
     

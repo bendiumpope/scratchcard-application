@@ -7,61 +7,42 @@
 
     <title>MTN Nigeria</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
-<!-- My navigation bar-->
-    <!--<div id="nav-Div">
-        <nav id="nav-bar">
-            <ul id="nav-list">
-                <li><a href="">Home</a></li>
-                <li><a href="#contactUs">About Us</a></li>
-                <li><a href="#aboutUs">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>-->
-    <!--My main header-->
-    <div id="header1">
-        <h1 class="firsth1">MTN NIGERIA</h1>
-        <h3 class="firsth3">everywhere you go!</h3>
+    <!--header-->
+    <div id="contain">
+        <div id="header1">
+            <h1 class="firsth1">MTN NIGERIA</h1>
+            <h3 class="firsth3">everywhere you go!</h3>
+        </div>
+        <!--My Login form-->
+        <div id="login">	
+                <form action="generate/generate.html" method="post" id="input">
+                    <h3 id="first-h3">Login</h3>
+                    Email:<input type="email" name="email" placeholder="E-mail" id="email">
+                    PassWord:<input type="password" name="password" placeholder="password" 
+                    value="" maxlength="10" minlength="6" id="password" required>
+                    <button id="loginbtn" type="submit">login</button>
+                    <button id="signUp" type="submit">signup</button>
+            </form>
     </div>
-    <!--My Login head-->
-    <div id="login">	
-			<form action="" method="POST">
-            <div id="input">
-                <h5 id="first-h5">Login</h5>
-				Email:<input type="email" name="email" placeholder="E-mail" id="email">
-                PassWord:<input type="password" name="password" placeholder="password" maxlength="10" minlength="6" id="password">
-                <button id="loginbtn">login</button>
-                <button id="signUp">signup</button>
-            </div>    
-		</form>
-    </div>
-    <div class="flt1">
-        <p id="aboutUs"><h2>About Us</h2>MTN Nigeria is the largest Telecommunication<br> 
-        Company in Africa with branches in 20 African countries and also Dubai, India<br> 
-        and Isreal. OUr vision is to bring the world by providing Network to you 24hours
-        a everyday</p>
-    </div>
-    <div class="flt2">
-        <p id="contactUs"><h3>Contact Us</h3>
-        <h5>Head-Office: 28th Tony Abiola Avenue, Victoria Island Lagos</h5>
-        <h5>Phone No.: +234-80-686-819-04</h5>  
-        <h5>Customer-Service: +234-80-696-798-27, +234-80-364-679-44, +234-70-688-038-08</h5>
-        </p>
-    </div>
-    <script>
-        $(document).ready(function(){
-            $('#loginbtn').on('click',function(){
-                $(input).keyup(function(e){
-                    e.preventDefault();
-                console.log(e.target.value);
-            });
-            
 
-            });
-           
-        })
-    </script>
+    <!--float information i.e contact us and about us-->
+    <div class="flt1">
+            <p id="aboutUs"><h4>About Us</h4><h6>MTN Nigeria is the largest Telecommunication<br> 
+            Company in Africa with branches in 20 African countries and also Dubai, India<br> 
+            and Isreal. OUr vision is to bring the world by providing Network to you 24hours
+            a everyday<h4></p>
+        </div>
+        <div class="flt2">
+            <p id="contactUs"><h4>Contact Us</h4>
+            <h6>Head-Office: 28th Tony Abiola Avenue, Victoria Island Lagos</h6>
+            <h6>Phone No.: +234-80-686-819-04</h6>  
+            <h6>Customer-Service: +234-80-696-798-27, +234-80-364-679-44, +234-70-688-038-08</h6>
+            </p>
+        </div>
+    <script src="index.js"> </script>
 </body>
-</html>
+</html> 

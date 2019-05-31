@@ -6,43 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Validate/test</title>
     <link rel="stylesheet" type="text/css" href="validate.css">
+    <script src="../jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <!-- Validate navigation bar-->
     <div id="navGen">
             <nav id="nav-bar">
                 <ul id="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li>
-                        <select name="Activity" id="select">
-                            <option value="Generate" id="generate"><a href="">Generate Card</option>
-                            <option value="Validate" id="validate"><a href="validate/validate.html">Validate/test</a></option>
-                            <option value="Delete" id="delete"><a href="delete.html">Delete card</a></option>
-                        </select>
-                    </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="../index.html" class="li">SignOut</a></li>
+                    <li><a href="../generate/generate.html" class="li">Generate Card</li>
+                    <li><a href="" class="li">Validate/test</a></li>
                 </ul>
             </nav>
         </div>
-        <!--Generation header-->
+        <!--header-->
     <div id="header1">
             <h1 class="firsth1">MTN NIGERIA</h1>
             <h3 class="firsth3">everywhere you go!</h3>
     </div>
-    <!--card generation button-->
+    <!--card validation form-->
     <div id="container">
-        <div id="val">
-            <h3 id="secondh3">Validate Recharge Card Pin</h3>
-            <input type="text" maxlength="12" id="validate" placeholder="enter Pin">
-            <button id="validatebtn">validate</button><br>
+        <form action="" id="form">
+            <h3 id="secondh3">Validate/Test Card</h3><br>
+            <input type="text" maxlength="10" id="validate" placeholder="Enter Serial Number" required>
+            <button id="validatebtn" type="submit"btn data-id="b">validate</button>            
+            <button id="deletebtn" type="submit">delete</button><br>
+            </form>
+            <h4>Enter Serial Number<br> 
+            to validate/Delete<h4><br>
         </div>
-        <!--Generated Pin detail display-->
-        <div id="val">
-            <h3 id="thirdh3">Use Recharge Card Pin</h3>
-            <input type="text" maxlength="12" id="test" placeholder="enter Pin">
-            <button id="testbtn">Use</button><br>
-        </div>
-    </div>
+        <script src="validate.js"> </script>
 </body>
 </html>
